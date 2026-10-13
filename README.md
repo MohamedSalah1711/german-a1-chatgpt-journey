@@ -11,6 +11,23 @@
 - كل جلسة تنتهي بتحديث `progress.json` و `CURRENT_STATE.md` و `MISTAKE_PATTERNS.md`.
 - كل تقدم يتسجل بـ Git commit، وبالتالي يظهر كتاريخ واضح على GitHub.
 
+## Where we actually are (13 October 2026)
+
+**Startbereit A1** study was already underway before this repo was created.
+
+| Checkpoint | Page |
+| --- | --- |
+| Last studied page (printed in the book) | **80** |
+| Same page in PDF viewer | **81** |
+| Next printed page | **81** |
+| Next PDF viewer page | **82** |
+| Current lesson | **Lektion 3** |
+| First GitHub tracking day | Day 001, **not completed yet** |
+
+Lessons 1–2 and the opening of Lesson 3 have been studied. This does **not** mean every word, grammar point or exercise is mastered or finished. Day 001 is a placement/revision session continuing at the current checkpoint, not a beginner reset.
+
+The complete course PDF was provided in ChatGPT but is **not uploaded to this public GitHub repository**. Use `references/startbereit-a1-source-map.md` for the outline and `progress.json.course_progress` for the page bookmark.
+
 ## Start
 
 اقرأ اولا:
