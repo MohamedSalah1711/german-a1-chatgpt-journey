@@ -30,6 +30,13 @@ def day_label(day_number: int) -> str:
     return f"{day_number:03d}"
 
 
+def pick_grammar(grammar_plan: list[dict], progress: dict) -> dict:
+    """Keep lessons aligned to textbook progress, not GitHub tracking-day number."""
+    next_page = int(progress.get("course_progress", {}).get("next_pdf_page", 1))
+    eligible = [item for item in grammar_plan if int(item["source_page"]) <= next_page]
+    return eligible[-1] if eligible else grammar_plan[0]
+
+
 def select_verbs(verbs: list[dict], day_number: int, count: int) -> list[dict]:
     start = ((day_number - 1) * count) % len(verbs)
     selected = []
@@ -97,12 +104,18 @@ def exercise_block(selected: list[dict], grammar: dict) -> str:
 
 def render_day(day_number: int, study_date: str, progress: dict, verbs: list[dict], grammar_plan: list[dict]) -> str:
     selected = select_verbs(verbs, day_number, progress["daily_rules"]["verbs_per_day"])
-    grammar = grammar_plan[(day_number - 1) % len(grammar_plan)]
+    grammar = pick_grammar(grammar_plan, progress)
     review_due = review_due_text(day_number, progress)
+    checkpoint = progress.get('course_progress', {})
+    next_printed = checkpoint.get('next_printed_page', 'unknown')
+    next_pdf = checkpoint.get('next_pdf_page', 'unknown')
 
     return f"""# {study_date} - Day {day_label(day_number)}
 
 Status: not completed
+
+First tracking day does not mean the learner is new to German.
+Textbook bookmark: next **printed page {next_printed} / PDF viewer page {next_pdf}**. This is not a mastery score.
 
 ## 1. Morning Review
 
@@ -211,9 +224,20 @@ def main() -> int:
     verbs = load_json(VERBS_PATH)
     grammar_plan = load_json(GRAMMAR_PATH)
 
-    day_number = args.day or int(progress.get("current_day", 0)) + 1
+    last_day = int(progress.get("current_day", 0))
+    if args.day is None and any(
+        int(item["day"]) == last_day and not item.get("completed", False)
+        for item in progress.get("generated_days", [])
+    ):
+        raise SystemExit(
+            f"Day {day_label(last_day)} is still not completed. "
+            "Finish/review it before generating the next day."
+        )
+    day_number = args.day or last_day + 1
     day_file = DAYS_DIR / f"{args.date}-day-{day_label(day_number)}.md"
 
+    if any(item.get("file") == day_file.relative_to(ROOT).as_posix() and item.get("completed") for item in progress.get("generated_days", [])):
+        raise SystemExit(f"Refusing to overwrite a completed day: {day_file}")
     if day_file.exists() and not args.force:
         raise SystemExit(f"Day file already exists: {day_file}")
 
@@ -245,13 +269,23 @@ def main() -> int:
         day_number * int(progress["daily_rules"]["verbs_per_day"]),
     )
 
-    grammar = grammar_plan[(day_number - 1) % len(grammar_plan)]
+    grammar = pick_grammar(grammar_plan, progress)
     topics = progress["skills"]["grammar"].setdefault("introduced_topics", [])
     if grammar["focus"] not in topics:
         topics.append(grammar["focus"])
 
     save_json(PROGRESS_PATH, progress)
     update_current_state(day_number, args.date, day_file.relative_to(ROOT), grammar)
+    # Preserve the learner's actual textbook progress in CURRENT_STATE.
+    with CURRENT_STATE_PATH.open("a", encoding="utf-8") as state_file:
+        course = progress.get("course_progress", {})
+        state_file.write(
+            f"\n## Textbook Bookmark (learner-reported)\n\n"
+            f"- Last studied printed page: {course.get('last_studied_printed_page', 'unknown')}\n"
+            f"- Next printed page: {course.get('next_printed_page', 'unknown')}\n"
+            f"- Next PDF viewer page: {course.get('next_pdf_page', 'unknown')}\n"
+            f"- Studied does not mean mastered. Never auto-advance the page.\n"
+        )
 
     print(f"Generated {rel_file}")
     print("Next: study the file, update the end-of-day log, then commit your progress.")
