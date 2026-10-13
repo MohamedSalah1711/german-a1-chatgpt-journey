@@ -22,9 +22,9 @@
 | Next printed page | **81** |
 | Next PDF viewer page | **82** |
 | Current lesson | **Lektion 3** |
-| First GitHub tracking day | Day 001, **not completed yet** |
+| First GitHub tracking day | Day 001; **guided review completed**, full 10-verb day **not completed** |
 
-Lessons 1–2 and the opening of Lesson 3 have been studied. This does **not** mean every word, grammar point or exercise is mastered or finished. Day 001 is a placement/revision session continuing at the current checkpoint, not a beginner reset.
+Lessons 1–2 and the opening of Lesson 3 have been studied. This does **not** mean every word, grammar point or exercise is mastered or finished. Day 001 began as a placement/revision session, not a beginner reset. The guided review ended at **question 80/80 on 2026-10-13**; details and actual mistakes are under [reviews/](reviews/2026-10-13-a1-review-through-page-80.md). No overall A1 grade or new textbook-page completion is claimed.
 
 The complete course PDF was provided in ChatGPT but is **not uploaded to this public GitHub repository**. Use `references/startbereit-a1-source-map.md` for the outline and `progress.json.course_progress` for the page bookmark.
 
@@ -83,6 +83,7 @@ git push -u origin main
 ```text
 .
 ├── days/                         # ملفات المذاكرة اليومية
+├── reviews/                      # تقييمات المراجعة ونتائج الأقسام
 ├── data/                         # بيانات الافعال وخطة القواعد
 ├── references/                   # مراجع مختصرة مبنية على كورس A1
 ├── scripts/                      # ادوات إنشاء اليوم الجديد

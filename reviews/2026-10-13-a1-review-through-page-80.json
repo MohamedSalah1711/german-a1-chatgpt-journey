@@ -1,0 +1,52 @@
+{
+  "session_date": "2026-10-13",
+  "kind": "guided_comprehensive_review",
+  "session_label": "Day 001 - review; NOT first day of studying German",
+  "review_status": "completed",
+  "reached_question_number": 80,
+  "textbook_last_studied_printed_page": 80,
+  "textbook_last_studied_pdf_page": 81,
+  "textbook_next_printed_page": 81,
+  "textbook_next_pdf_page": 82,
+  "textbook_progress_advanced": false,
+  "full_daily_lesson_completed": false,
+  "pronunciation_skipped_by_user_request": true,
+  "question_mode": "one_at_a_time",
+  "observed_subsection_results": {
+    "personal_pronouns_q8_to_q9": {
+      "correct": 2,
+      "total": 2
+    },
+    "present_tense_q10_to_q14": {
+      "correct": 4,
+      "total": 5
+    },
+    "possessives_q15_to_q22": {
+      "correct": 5,
+      "total": 8
+    },
+    "negation_q23_to_q29": {
+      "correct": 5,
+      "total": 7
+    },
+    "appearance_recognition_q31_to_q35": {
+      "correct": 5,
+      "total": 5
+    },
+    "reading_comprehension_q62_to_q64": {
+      "correct": 3,
+      "total": 3
+    }
+  },
+  "formal_overall_score": null,
+  "priorities": [
+    "possessive determiners",
+    "kein/keine and noun gender",
+    "noun capitalization",
+    "spelling",
+    "subject-verb endings",
+    "complete writing responses"
+  ],
+  "notes": "Review reached Q80; guided review does not establish full A1 mastery or completion of textbook p81.",
+  "next_session": "Short targeted spaced review, then printed page 81 (PDF page 82) only on learner request"
+}

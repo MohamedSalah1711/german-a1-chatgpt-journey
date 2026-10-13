@@ -37,7 +37,10 @@
       "score": null,
       "study_role": "first tracked session / placement review at current course checkpoint",
       "course_start_printed_page": 81,
-      "source_pdf_page": 82
+      "source_pdf_page": 82,
+      "placement_review_completed": true,
+      "placement_review_last_question": 80,
+      "placement_review_report": "reviews/2026-10-13-a1-review-through-page-80.md"
     }
   ],
   "skills": {
@@ -82,5 +85,45 @@
     "exercises_verified": false,
     "notes_ar": "وصل لحد صفحة 80 المطبوعة (صفحة 81 في عدّاد PDF). ده تقدم في محتوى الكورس مش إثبات حفظ أو إتقان أو حل كل التمارين."
   },
-  "tracking_note": "Day 001 is the first day tracked in this repository, NOT the learner's first day studying German. Previous course progress was reported, not independently assessed."
+  "tracking_note": "Day 001 is first day tracked, not first German study day. Guided review through question 80 completed on 2026-10-13; the ten-verb Day 001 routine has not been completed or scored. Book last studied printed p80 (PDF p81), next printed p81 (PDF p82).",
+  "review_sessions": [
+    {
+      "date": "2026-10-13",
+      "kind": "guided_comprehensive_review",
+      "status": "completed",
+      "last_question_number": 80,
+      "report": "reviews/2026-10-13-a1-review-through-page-80.md",
+      "data": "reviews/2026-10-13-a1-review-through-page-80.json",
+      "observed_subsection_results": {
+        "personal_pronouns_q8_to_q9": {
+          "correct": 2,
+          "total": 2
+        },
+        "present_tense_q10_to_q14": {
+          "correct": 4,
+          "total": 5
+        },
+        "possessives_q15_to_q22": {
+          "correct": 5,
+          "total": 8
+        },
+        "negation_q23_to_q29": {
+          "correct": 5,
+          "total": 7
+        },
+        "appearance_recognition_q31_to_q35": {
+          "correct": 5,
+          "total": 5
+        },
+        "reading_comprehension_q62_to_q64": {
+          "correct": 3,
+          "total": 3
+        }
+      },
+      "formal_overall_score": null,
+      "pronunciation_skipped_by_user_request": true,
+      "study_page_advanced": false
+    }
+  ],
+  "last_reviewed_date": "2026-10-13"
 }
