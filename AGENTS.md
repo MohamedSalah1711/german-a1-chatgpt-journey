@@ -22,3 +22,11 @@ Daily session requirements:
 
 Do not overwrite completed day files. If a day file already exists, append a correction or create the next day.
 
+Checkpoint rules (as of 2026-10-13):
+
+- The learner has already studied through **printed page 80** of Startbereit A1 (**PDF page 81**); resume at **printed page 81 / PDF page 82**, Lektion 3.
+- Treat `progress.json.course_progress` as the bookmark; do not infer the next textbook page from GitHub day number.
+- Day 001 is the first GitHub tracking day; it is not the learner's first A1 class.
+- Only mark pages as studied on learner confirmation. Never infer mastery, grades, or completed textbook exercises.
+- Before proceeding, diagnose previous grammar briefly (articles/plurals, Präsens, possessives, nicht/kein).
+- The supplied full PDF is outside this public repo; use the source map for planning.
