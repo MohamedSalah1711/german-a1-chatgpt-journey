@@ -1,0 +1,87 @@
+[
+  {
+    "unit": 0,
+    "source_page": 1,
+    "focus": "Alphabet, pronunciation, articles, personal pronouns",
+    "goal_ar": "تقرأ الحروف صح، تحفظ der/die/das مع الاسم، وتعرف الضمائر الشخصية.",
+    "practice": ["Spell your name", "Choose der/die/das", "Introduce yourself in 5 short sentences"]
+  },
+  {
+    "unit": 1,
+    "source_page": 39,
+    "focus": "Present tense and possessive articles",
+    "goal_ar": "تصرف الافعال في المضارع وتستخدم mein/dein/sein/ihr.",
+    "practice": ["Conjugate 5 verbs", "Write about family", "Write a short email"]
+  },
+  {
+    "unit": 2,
+    "source_page": 74,
+    "focus": "Negation with nicht and kein",
+    "goal_ar": "تنفي الجمل والاسماء بشكل صحيح.",
+    "practice": ["Change positive sentences to negative", "Describe a person", "Use kein with nouns"]
+  },
+  {
+    "unit": 3,
+    "source_page": 100,
+    "focus": "W-questions and yes/no questions",
+    "goal_ar": "تسأل اسئلة بسيطة وترد عليها.",
+    "practice": ["Make 10 questions", "Ask about price", "Describe an object"]
+  },
+  {
+    "unit": 4,
+    "source_page": 128,
+    "focus": "Modal verbs",
+    "goal_ar": "تستخدم können/müssen/dürfen/wollen/möchten مع الفعل في اخر الجملة.",
+    "practice": ["Daily routine with modal verbs", "Food dialogue", "Write 5 needs"]
+  },
+  {
+    "unit": 5,
+    "source_page": 159,
+    "focus": "Accusative",
+    "goal_ar": "تميز المفعول المباشر وتغير der/ein/kein الى den/einen/keinen.",
+    "practice": ["Object sentences", "Hobby invitation", "Phone mini-dialogue"]
+  },
+  {
+    "unit": 6,
+    "source_page": 205,
+    "focus": "Dative",
+    "goal_ar": "تستخدم الداتيف في جمل مساعدة واتجاهات واماكن.",
+    "practice": ["Directions", "Hotel dialogue", "Use helfen/danken"]
+  },
+  {
+    "unit": 7,
+    "source_page": 252,
+    "focus": "Separable verbs, dürfen vs müssen",
+    "goal_ar": "تتعامل مع الافعال المنفصلة والقواعد اليومية.",
+    "practice": ["Household routine", "Traffic rules", "Ask for help"]
+  },
+  {
+    "unit": 8,
+    "source_page": 290,
+    "focus": "Temporal prepositions, word formation, ordinal numbers",
+    "goal_ar": "تتكلم عن الوقت والرحلات والمناسبات.",
+    "practice": ["Week plan", "Travel opinion", "Dates and months"]
+  },
+  {
+    "unit": 9,
+    "source_page": 332,
+    "focus": "Perfekt",
+    "goal_ar": "تحكي عن الماضي في الكلام اليومي.",
+    "practice": ["Yesterday sentences", "Weather talk", "Office routine"]
+  },
+  {
+    "unit": 10,
+    "source_page": 365,
+    "focus": "Konjunktiv II, comparative and superlative",
+    "goal_ar": "تعبر عن رغباتك وتقارن بين الاشياء.",
+    "practice": ["Wish sentences", "Compare apartments", "Give reasons"]
+  },
+  {
+    "unit": 11,
+    "source_page": 403,
+    "focus": "Imperative, Präteritum of haben and sein",
+    "goal_ar": "تدي نصائح واوامر بسيطة وتستخدم war/hatte.",
+    "practice": ["Health advice", "Pain description", "Doctor dialogue"]
+  }
+]
+

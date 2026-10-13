@@ -1,0 +1,45 @@
+{
+  "learner": "Ahmed Afify",
+  "target_level": "A1",
+  "repo_started": "2026-10-13",
+  "current_day": 1,
+  "last_generated_date": "2026-10-13",
+  "last_completed_date": null,
+  "daily_rules": {
+    "verbs_per_day": 10,
+    "start_with_review": true,
+    "grammar_topics_per_day": 1,
+    "examples_required_for_each_verb": true,
+    "commit_after_each_completed_day": true
+  },
+  "source_reference": {
+    "title": "startbereit A1 - course PDF",
+    "local_path": "C:\\Users\\Ahmed Afify\\Downloads\\Telegram Desktop\\startbereit A1 - نسخة الكورس المسجل (1).pdf",
+    "pages_detected": 436,
+    "notes": "Used as a topic map and reference source, not copied as full course text."
+  },
+  "review_schedule": {
+    "intervals_after_day": [1, 3, 7, 14, 30],
+    "method": "Review old verbs, old grammar, mistake patterns, and one short writing task before new material."
+  },
+  "generated_days": [
+    {
+      "day": 1,
+      "date": "2026-10-13",
+      "file": "days/2026-10-13-day-001.md",
+      "completed": false,
+      "score": null
+    }
+  ],
+  "skills": {
+    "verbs": {
+      "introduced": 10,
+      "mastered": 0
+    },
+    "grammar": {
+      "introduced_topics": ["alphabet", "articles", "personal pronouns"],
+      "needs_review": []
+    }
+  }
+}
+
