@@ -1,22 +1,28 @@
 # Current State
 
-Date: 2026-10-13
+Updated: 2026-10-13
 
-Current level: A1 beginner
+- Level: A1 learner (mastery not yet assessed).
+- Course: **Startbereit A1** (436 PDF pages).
+- Learner-reported last studied page: **printed page 80 = PDF viewer page 81**.
+- Next page: **printed page 81 = PDF viewer page 82**.
+- Current lesson: **Lektion 3** — `nicht/kein`, appearance, character traits and beginning of clothing vocabulary.
+- Lessons 1 and 2 were studied before this repository started. Do not restart at the alphabet.
+- **Studied ≠ mastered:** no scores or completion of individual book exercises have been verified.
 
-Current day: 001
+## GitHub Session Tracking
 
-Status: Day 001 generated, not completed yet.
+- Tracked Day: **001**, dated 2026-10-13.
+- Status: **checkpoint/review lesson prepared, not completed**.
+- Day 001 is the **first tracked session**, not the first day of the learner's German course.
+- File: `days/2026-10-13-day-001.md`.
+- No completed-day score or mastered verb count should be invented.
 
-## Today
+## Resume Here
 
-- Start with alphabet, articles, pronouns, and very common verbs.
-- Focus on short self-introduction sentences.
-- Write one personal sentence for each verb.
-
-## Next Session Should Start With
-
-1. Review Day 001 verbs.
-2. Ask for der/die/das examples.
-3. Ask the learner to introduce himself in 5 short German sentences.
+1. Start with a short diagnostic review of articles/plurals, Präsens, possessives and `nicht/kein`.
+2. Resume **Lektion 3, printed page 81 (PDF page 82)**: clothing words and their verbs.
+3. Practice **10 verbs** (examples + learner sentences), then one grammar topic, short exercises and feedback.
+4. Ask one question at a time, in Arabic with German examples.
+5. Only after the session, update `progress.json`, today's day log, `MISTAKE_PATTERNS.md` (actual mistakes only), and the book page reached.
 
