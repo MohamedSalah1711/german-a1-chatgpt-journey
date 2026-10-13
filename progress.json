@@ -71,7 +71,14 @@
           "review_total": 1
         }
       },
-      "mixed_final_quiz_status": "question_1_of_5_pending"
+      "mixed_final_quiz_status": "completed_2_of_5_correct_with_2_of_3_retry_and_1_of_1_pronoun_followup",
+      "session_status": "closed_for_now_incomplete",
+      "session_closed_recorded_date": "2026-10-14",
+      "pending_work": [
+        "Learner confirmed printed page 81 has NOT been finished",
+        "Revisit clothing words, articles, verbs and brief spaced review; do not repeat full drills",
+        "Resume studying printed page 81 / PDF viewer page 82 before moving onward"
+      ]
     }
   ],
   "skills": {
@@ -100,7 +107,7 @@
   },
   "course_progress": {
     "book_title": "Startbereit A1 - نسخة الكورس المسجل",
-    "progress_source": "Learner-reported completion through printed page 80 on 2026-10-13",
+    "progress_source": "Learner confirmed on session closure that printed page 81 is not yet complete; last fully studied bookmark remains printed page 80 (PDF viewer 81).",
     "last_studied_printed_page": 80,
     "last_studied_pdf_page": 81,
     "next_printed_page": 81,
@@ -116,9 +123,10 @@
     "next_section": "Lektion 3 - clothing vocabulary and clothing verbs on printed page 81",
     "content_seen_not_mastered": true,
     "exercises_verified": false,
-    "notes_ar": "وصل لحد صفحة 80 المطبوعة (صفحة 81 في عدّاد PDF). ده تقدم في محتوى الكورس مش إثبات حفظ أو إتقان أو حل كل التمارين."
+    "notes_ar": "الطالب أكد عند إغلاق الجلسة إن صفحة 81 المطبوعة لسه ما اتخلصتش. آخر صفحة مؤكدة 80 مطبوعة (PDF 81)، والصفحة الجاية 81 مطبوعة (PDF 82). اتعملت تدريبات أفعال وملابس من صفحة 81 من غير ما نعتبر الصفحة كاملة.",
+    "page_81_completion_confirmed": false
   },
-  "tracking_note": "Guided checkpoint through Q80 complete. Clothing verbs 10 practice sentences + 3/3 retry; negation 5/5 (4/5 fully orthographic), clothing articles 3/6 then 3/3 retry, plurals 5/6 then 1/1 retry. Final mixed test Q1/5 is waiting. Day 001 incomplete (no overall score), book still confirmed to printed p80 only; p81 next.",
+  "tracking_note": "Session explicitly closed for now on 2026-10-14, without completing Day 001 or printed page 81. 10 verb exercises + targeted retry 3/3; negation 5/5; articles 3/6 then 3/3; plurals 5/6 then 1/1; mixed quiz 2/5 first try then 2/3 targeted retry and final pronoun check 1/1. User will continue later. Do not ask another question until user returns.",
   "review_sessions": [
     {
       "date": "2026-10-13",
@@ -158,7 +166,7 @@
       "study_page_advanced": false
     }
   ],
-  "last_reviewed_date": "2026-10-13",
+  "last_reviewed_date": "2026-10-14",
   "lesson_sessions": [
     {
       "date": "2026-10-13",
@@ -189,11 +197,13 @@
         "total": 3
       },
       "grammar_focus": "nicht/kein clothing negation",
-      "grammar_exercises_status": "negation exercises done 5/5; article and plural quizzes done; final mixed quiz question 1/5 pending",
+      "grammar_exercises_status": "negation 5/5; article and plural quizzes; final mixed test completed 2/5 then retries 2/3 + extra pronoun correction 1/1",
       "completed": false,
       "overall_score": null,
       "book_page_marked_complete": false,
-      "notes": "Verb drill 10/10 practiced, retry 3/3; negation 5/5 correct choice (one noun-capitalization error), articles 3/6 then 3/3 on retry, plurals 5/6 then 1/1 on retry. Final mixed quiz awaits first answer. Printed p81 completion not confirmed."
+      "notes": "Learner requested to close the session for now and resume tomorrow. Verb lesson practiced, Q1-5 mixed test scored 2/5; retry 2/3, pronoun extra 1/1. Printed p81 explicitly NOT finished. No daily completion, score or page advancement.",
+      "session_status": "paused_by_learner",
+      "session_closed_recorded_date": "2026-10-14"
     }
   ],
   "lesson_assessments": [
@@ -262,13 +272,75 @@
       },
       "final_mixed_quiz": {
         "planned_count": 5,
-        "answered": 0,
-        "status": "in_progress_first_question_awaiting_answer",
-        "current_question_ar": "دي مش قبعة، دي طاقية.",
-        "required_words": [
-          "Hut",
-          "Mütze"
-        ]
+        "answered": 5,
+        "correct_on_first_attempt": 2,
+        "status": "completed_with_corrections",
+        "answers": [
+          {
+            "n": 1,
+            "prompt_ar": "دي مش قبعة، دي طاقية.",
+            "learner": "Das ist kein Hut, das ist eine Mütze.",
+            "correct": true
+          },
+          {
+            "n": 2,
+            "prompt_ar": "أختي بتعلّق الجاكيت، لكن أخويا بيطوي القميص.",
+            "learner": "Meine Schwester hängt die Jacke auf, abder Mein Bruder büglt das Hemd.",
+            "correct": false,
+            "corrected": "Meine Schwester hängt die Jacke auf, aber mein Bruder faltet das Hemd.",
+            "notes": "aber spelling, lower-case mein after comma, bügeln vs falten"
+          },
+          {
+            "n": 3,
+            "prompt_ar": "أمي بتقيس المقاس، وأبويا بيشتري الجاكيت.",
+            "learner": "Meine Mutter misst die Größe, und mein Vater bestellt die Jacke.",
+            "correct": false,
+            "corrected": "Meine Mutter misst die Größe, und mein Vater kauft die Jacke.",
+            "notes": "bestellen=order, kaufen=buy"
+          },
+          {
+            "n": 4,
+            "prompt_ar": "أنا بجرّب القميص، لكن أختي بتخلع الجاكيت.",
+            "learner": "Ich probiere das Hemd an, aber meine Schwester zieht die Jacke aus.",
+            "correct": true
+          },
+          {
+            "n": 5,
+            "prompt_ar": "أخويا بيكوي القميص، وبعد كده بيطويه.",
+            "learner": "Mein Bruder büglt das Hemd, danach faltt das Hemd.",
+            "correct": false,
+            "corrected": "Mein Bruder bügelt das Hemd, danach faltet er es.",
+            "notes": "er bügelt, er faltet, verb-second following danach; es for das Hemd"
+          }
+        ],
+        "targeted_retry": {
+          "prompt_count": 3,
+          "fully_correct": 2,
+          "answers": [
+            {
+              "n": 1,
+              "learner": "Meine Schwester bügelt die Jacke, danach faltet sie es.",
+              "correct": false,
+              "corrected": "Meine Schwester bügelt die Jacke, danach faltet sie sie.",
+              "notes": "sie for feminine die Jacke"
+            },
+            {
+              "n": 2,
+              "learner": "Mein Vater kauft die Jacke, aber meine Mutter bestellt das Hemd.",
+              "correct": true
+            },
+            {
+              "n": 3,
+              "learner": "Mein Bruder bügelt das Hemd, danach faltet er es.",
+              "correct": true
+            }
+          ]
+        },
+        "extra_pronoun_check": {
+          "learner": "Meine Schwester kauft die Jacke, danach zieht sie sie an.",
+          "correct": true,
+          "notes": "First sie is subject; second sie refers to feminine die Jacke"
+        }
       }
     }
   ]

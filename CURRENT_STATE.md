@@ -1,6 +1,6 @@
 # Current State
 
-Updated: 2026-10-14 (repo record after subsequent guided exercises)
+Updated: 2026-10-14 (session closed for now, page 81 still unfinished)
 
 - Level: **A1 learner**; guided checkpoint review completed, but no formal proficiency assessment or verified whole-course mastery.
 - Course: **Startbereit A1** (436 PDF pages).
@@ -22,17 +22,20 @@ Updated: 2026-10-14 (repo record after subsequent guided exercises)
 
 - **Day 001**: 2026-10-13, first recorded GitHub session, NOT first day of learning German.
 - **Placement/review completed (Q80)**; **ten-verb writing drill** (10 responses + targeted retry **3/3**); **negation 5/5** (4/5 entirely correctly spelled); **article quiz 3/6 + retry 3/3**; **plural quiz 5/6 + retry 1/1**.
-- **Full Day 001 remains incomplete:** the final mixed quiz (0/5 answered) and learner page-completion confirmation are still pending.
+- **Mixed final quiz completed:** **2/5 first try**, then **2/3** targeted follow-up and **1/1** extra pronoun check. Learner **explicitly confirmed printed p81 is NOT finished**.
+- **Study session closed for now on learner request; Day 001 remains incomplete**. Do not reopen or question until learner returns.
 - `progress.json.generated_days[0].completed = false` and `score = null` until the separate daily work is actually finished and evaluated.
 - Day log: `days/2026-10-13-day-001.md`.
 
-## Resume Here
+## Resume When Learner Returns
 
-1. **Resume final mixed quiz question 1/5** — translate *«دي مش قبعة، دي طاقية.»* using `Hut` and `Mütze`. This question is awaiting the learner's response.
-2. Continue the remaining **four mixed quiz questions one at a time**. Do not repeat already finished five negation items, six article questions, or six plural questions unless learner asks.
-3. Spaced review of **der Mantel / die Mütze / der Hut / die Hemden** (all corrected in immediate retests), plus possessives and German noun capitalization as needed.
-4. Ask **one question at a time**, with brief Egyptian Arabic feedback and German examples. **Skip pronunciation** unless requested.
-5. Day 001 is **not yet complete** and no formal overall score exists; do **not advance printed p80 → p81** until learner confirms full p81 studied.
+**Learner ended the session for today:** no pending question to answer now.
+
+1. Resume **printed p81 / PDF viewer p82** of Startbereit A1, **not completed** (explicit learner confirmation). Before picking new material, ask what remains to cover on that page; the clothing verb drill and related quizzes are already done.
+2. Give just **2–3 brief spaced review questions** based on actual mistakes: `bügeln` vs `falten`, `kaufen` vs `bestellen`, `die Jacke → sie` / `das Hemd → es`, `danach` word order. Ask **one at a time**.
+3. Historical results: negation 5/5 for correct negation choice (4/5 entirely correctly spelled), articles 3/6 + retest 3/3, plurals 5/6 + retest 1/1, mixed final quiz 2/5 + targeted retest 2/3 + pronoun practice 1/1.
+4. Do **not** repeat the completed 80-question placement review or full 10-verb exercise by default, and do **not** generate Day 002 automatically.
+5. **Day 001** is paused/incomplete (completed=false, score=null); keep last completed textbook page **printed p80 / PDF p81** until learner confirms p81 done. Explanations short, Egyptian Arabic, German examples, **no pronunciation** unless requested.
 
 ## Latest verb-practice details
 
@@ -41,3 +44,7 @@ See the full per-verb corrections in [`days/2026-10-13-day-001.md`](days/2026-10
 ## Recorded continuation: clothing negation and nouns
 
 Detailed first attempts and retries are documented in [`days/2026-10-13-day-001.md`](days/2026-10-13-day-001.md). Updated on 2026-10-14 as repo recording date, not an assumed study date.
+
+## Session wrap-up
+
+Study session closed for now at user request, recorded 2026-10-14. Last exercise: `Meine Schwester kauft die Jacke, danach zieht sie sie an.` — fully correct. See §10 in [`days/2026-10-13-day-001.md`](days/2026-10-13-day-001.md) for the full 5-question final test and corrections. Page 81 was explicitly not finished.
