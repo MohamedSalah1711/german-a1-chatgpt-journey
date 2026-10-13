@@ -10,6 +10,12 @@ C:\Users\Ahmed Afify\Downloads\Telegram Desktop\startbereit A1 - نسخة الك
 
 ملاحظة: هذا الريبو لا ينسخ محتوى الكورس بالكامل. نستخدمه كمرجع لترتيب الموضوعات، ثم نبني تدريبات وجمل يومية مناسبة للمذاكرة.
 
+## Learner Checkpoint (2026-10-13)
+
+**Reported studied through printed page 80 = PDF viewer page 81.** The next page is **printed page 81 = PDF viewer page 82**, within **Lektion 3**. It continues `die Kleidung` (clothing items and verbs such as `anprobieren`, `anziehen`, `ausziehen`). The previous section introduced `nicht/kein`, appearance and character vocabulary.
+
+Important: the unit start pages in the table below refer to **PDF viewer page numbers**, whereas the progress checkpoint above specifies *both* printed and viewer numbering. This is a reading bookmark, not a certification that every exercise or vocabulary item has been mastered.
+
 ## Unit Map
 
 | Unit | PDF start page | Grammar | Vocabulary | Skills / Writing |
