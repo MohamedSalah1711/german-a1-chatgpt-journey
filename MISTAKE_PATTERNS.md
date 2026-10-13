@@ -1,6 +1,6 @@
 # Mistake Patterns
 
-أخطاء اتلاحظت فعليًا أثناء مراجعة 2026-10-13 حتى السؤال 80. كررها في مراجعة قصيرة، مش إعادة الاختبار كله.
+أخطاء اتلاحظت فعليًا أثناء مراجعة 2026-10-13 حتى السؤال 80 والتدريبات اللاحقة على الملابس والنفي والجمع. كررها في مراجعة قصيرة، مش إعادة الاختبار كله.
 
 | Date | Pattern | Observed answer | Correct form | Next review |
 | --- | --- | --- | --- | --- |
@@ -14,11 +14,14 @@
 | 2026-10-13 | Spelling, noun capitalization | "die Grübschen", "Shwester", "Deutch", lower-case "Lehrerin" | **das Grübchen**, **Schwester**, **Deutsch**, **Lehrerin** | Written recall with article |
 | 2026-10-13 | Appearance expressions | "lang/kurz" for people's height, "Lang Haare" | **groß/klein** (height), **lange/kurze Haare** | Contrast descriptions of person vs hair |
 | 2026-10-13 | Complete written response | Question 80 omitted requested age | **Ich bin sechsundzwanzig Jahre alt.** | Check every fact in writing prompt |
-
 | 2026-10-13 | Separable verb particles | `hängt das Hemd an`; `zieht die Jacke an` when meaning remove | `hängt ... auf` (aufhängen); `zieht ... aus` (ausziehen) | Targeted retry **2/2 correct**; revisit after interval |
 | 2026-10-13 | Irregular verb messen | `Mein Bruder messt die Größe` | `Mein Bruder misst die Größe` | Targeted retry **correct** (`Mein Vater misst...`) |
 | 2026-10-13 | Article and indefinite meaning | `das Jacke`; `das T-Shirt` for Arabic “a T-shirt” | `die Jacke`; `ein T-Shirt` | Contrast definite/indefinite in practice |
 | 2026-10-13 | Clothing-word spelling and capitalization | `T-shirt`, `Kauft`, `dir Fraben`, `zeiht` | `T-Shirt`, `kauft`, `die Farben`, `zieht` | Short proofreading exercises |
+
+| Recorded 2026-10-14 | Clothing article recall | Answered `die` for Mantel, `das` for Mütze, `das` for Hut | **der Mantel, die Mütze, der Hut** | Retest **3/3 correct**; review again after a delay |
+| Recorded 2026-10-14 | Plural ending of Hemd | `die Hemd` | **das Hemd → die Hemden** | Retest **1/1 correct**; revisit later without cue |
+| Recorded 2026-10-14 | German noun capitalization | `Die hose ist nicht neu.` | **Die Hose ist nicht neu.** | Nouns capitalized even within sentences; negation choice itself was correct |
 
 **Important:** In question 69, "Meine Mutter hat einen Bruder" introduced an accusative article. Do not assume systematic Akkusativ was already studied; follow the textbook's later sequence.
 

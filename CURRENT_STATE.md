@@ -1,6 +1,6 @@
 # Current State
 
-Updated: 2026-10-13 (after ten-verb practice)
+Updated: 2026-10-14 (repo record after subsequent guided exercises)
 
 - Level: **A1 learner**; guided checkpoint review completed, but no formal proficiency assessment or verified whole-course mastery.
 - Course: **Startbereit A1** (436 PDF pages).
@@ -21,18 +21,23 @@ Updated: 2026-10-13 (after ten-verb practice)
 ## GitHub Session Tracking
 
 - **Day 001**: 2026-10-13, first recorded GitHub session, NOT first day of learning German.
-- **Placement/review component completed (Q80)**. **Ten-verb writing drill completed** (10 learner sentences, all corrected; targeted redo **3/3**). **Full Day 001 remains incomplete** because grammar and other exercises are still pending.
+- **Placement/review completed (Q80)**; **ten-verb writing drill** (10 responses + targeted retry **3/3**); **negation 5/5** (4/5 entirely correctly spelled); **article quiz 3/6 + retry 3/3**; **plural quiz 5/6 + retry 1/1**.
+- **Full Day 001 remains incomplete:** the final mixed quiz (0/5 answered) and learner page-completion confirmation are still pending.
 - `progress.json.generated_days[0].completed = false` and `score = null` until the separate daily work is actually finished and evaluated.
 - Day log: `days/2026-10-13-day-001.md`.
 
 ## Resume Here
 
-1. **Resume current grammar exercise immediately:** negate `Das ist eine Jacke.`. The question is already posed and awaiting learner response.
-2. Continue `nicht/kein` exercises one question at a time and clothing vocabulary as planned.
-3. **Do not redo the completed 10-verb drill**. Use later spaced review for `aufhängen`, `ausziehen`, and `messen`; retry already passed 3/3.
-4. Ask **one question at a time**, explain briefly in Egyptian Arabic with German examples, and **skip pronunciation** unless the learner requests it.
-5. Update the page number **only after learner confirms they studied the next page**; update day completion only when all daily requirements are done.
+1. **Resume final mixed quiz question 1/5** — translate *«دي مش قبعة، دي طاقية.»* using `Hut` and `Mütze`. This question is awaiting the learner's response.
+2. Continue the remaining **four mixed quiz questions one at a time**. Do not repeat already finished five negation items, six article questions, or six plural questions unless learner asks.
+3. Spaced review of **der Mantel / die Mütze / der Hut / die Hemden** (all corrected in immediate retests), plus possessives and German noun capitalization as needed.
+4. Ask **one question at a time**, with brief Egyptian Arabic feedback and German examples. **Skip pronunciation** unless requested.
+5. Day 001 is **not yet complete** and no formal overall score exists; do **not advance printed p80 → p81** until learner confirms full p81 studied.
 
 ## Latest verb-practice details
 
 See the full per-verb corrections in [`days/2026-10-13-day-001.md`](days/2026-10-13-day-001.md#8-ten-verb-guided-practice--completed-with-corrections-2026-10-13). Pronunciation remains skipped by learner request.
+
+## Recorded continuation: clothing negation and nouns
+
+Detailed first attempts and retries are documented in [`days/2026-10-13-day-001.md`](days/2026-10-13-day-001.md). Updated on 2026-10-14 as repo recording date, not an assumed study date.

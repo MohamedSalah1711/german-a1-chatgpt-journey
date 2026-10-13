@@ -56,7 +56,22 @@
           ]
         }
       },
-      "grammar_exercises_status": "in_progress_first_negation_question_pending"
+      "grammar_exercises_status": "negation_5_of_5_complete_final_mixed_quiz_pending",
+      "clothing_vocab_assessment": {
+        "articles": {
+          "first_try_correct": 3,
+          "total": 6,
+          "review_correct": 3,
+          "review_total": 3
+        },
+        "plurals": {
+          "first_try_correct": 5,
+          "total": 6,
+          "review_correct": 1,
+          "review_total": 1
+        }
+      },
+      "mixed_final_quiz_status": "question_1_of_5_pending"
     }
   ],
   "skills": {
@@ -103,7 +118,7 @@
     "exercises_verified": false,
     "notes_ar": "وصل لحد صفحة 80 المطبوعة (صفحة 81 في عدّاد PDF). ده تقدم في محتوى الكورس مش إثبات حفظ أو إتقان أو حل كل التمارين."
   },
-  "tracking_note": "Guided review through Q80 done, and all 10 clothing-verb sentences practiced plus targeted correction retry 3/3 on 2026-10-13. Day 001 still incomplete: negation and other daily exercises pending. Do not advance printed book p80 until learner confirms completion of printed p81.",
+  "tracking_note": "Guided checkpoint through Q80 complete. Clothing verbs 10 practice sentences + 3/3 retry; negation 5/5 (4/5 fully orthographic), clothing articles 3/6 then 3/3 retry, plurals 5/6 then 1/1 retry. Final mixed test Q1/5 is waiting. Day 001 incomplete (no overall score), book still confirmed to printed p80 only; p81 next.",
   "review_sessions": [
     {
       "date": "2026-10-13",
@@ -174,11 +189,87 @@
         "total": 3
       },
       "grammar_focus": "nicht/kein clothing negation",
-      "grammar_exercises_status": "started; first task awaiting learner answer",
+      "grammar_exercises_status": "negation exercises done 5/5; article and plural quizzes done; final mixed quiz question 1/5 pending",
       "completed": false,
       "overall_score": null,
       "book_page_marked_complete": false,
-      "notes": "All 10 practice sentences submitted and corrected. No formal 10/10 mastery; errors with articles, spelling, separable prefixes, and messen. Targeted retry 3/3. Daily grammar exercises unfinished; keep bookmark at printed p80/PDF81 pending learner confirmation of page 81 completion."
+      "notes": "Verb drill 10/10 practiced, retry 3/3; negation 5/5 correct choice (one noun-capitalization error), articles 3/6 then 3/3 on retry, plurals 5/6 then 1/1 on retry. Final mixed quiz awaits first answer. Printed p81 completion not confirmed."
+    }
+  ],
+  "lesson_assessments": [
+    {
+      "kind": "clothing_negation_articles_plural_guided_assessment",
+      "recorded_date": "2026-10-14",
+      "provenance": "Answers observed in ongoing chat after 10 clothing verbs; date is repo recording date, not asserted study date",
+      "negation": {
+        "prompt_count": 5,
+        "negation_choices_correct": 5,
+        "fully_correct_written_answers": 4,
+        "spelling_issue": "Die hose ist nicht neu. -> Die Hose ist nicht neu.",
+        "examples": [
+          "Das ist keine Jacke.",
+          "Die Hose ist nicht neu.",
+          "Das ist kein Mantel.",
+          "Das sind keine Schuhe.",
+          "Mein Bruder ist nicht müde."
+        ],
+        "status": "completed"
+      },
+      "articles": {
+        "prompt_count": 6,
+        "correct_first_attempt": 3,
+        "retry_correct": 3,
+        "retry_total": 3,
+        "correct": [
+          "der Schuh",
+          "die Jacke",
+          "das Hemd"
+        ],
+        "initial_errors": [
+          {
+            "user": "die Mantel",
+            "correct": "der Mantel"
+          },
+          {
+            "user": "das Mütze",
+            "correct": "die Mütze"
+          },
+          {
+            "user": "das Hut",
+            "correct": "der Hut"
+          }
+        ],
+        "status": "completed_with_corrections"
+      },
+      "plurals": {
+        "prompt_count": 6,
+        "correct_first_attempt": 5,
+        "retry_correct": 1,
+        "retry_total": 1,
+        "initial_error": {
+          "user": "die Hemd",
+          "correct": "die Hemden"
+        },
+        "correct": [
+          "die Mäntel",
+          "die Jacken",
+          "die Hemden",
+          "die Schuhe",
+          "die Mützen",
+          "die Hüte"
+        ],
+        "status": "completed_with_corrections"
+      },
+      "final_mixed_quiz": {
+        "planned_count": 5,
+        "answered": 0,
+        "status": "in_progress_first_question_awaiting_answer",
+        "current_question_ar": "دي مش قبعة، دي طاقية.",
+        "required_words": [
+          "Hut",
+          "Mütze"
+        ]
+      }
     }
   ]
 }
