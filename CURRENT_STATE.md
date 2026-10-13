@@ -1,13 +1,13 @@
 # Current State
 
-Updated: 2026-10-13 (after guided review)
+Updated: 2026-10-13 (after ten-verb practice)
 
 - Level: **A1 learner**; guided checkpoint review completed, but no formal proficiency assessment or verified whole-course mastery.
 - Course: **Startbereit A1** (436 PDF pages).
 - Last studied **printed page 80 = PDF viewer page 81** (learner-reported).
-- Next unstudied **printed page 81 = PDF viewer page 82**, Lektion 3 (Kleidung).
+- **Printed page 81 = PDF viewer page 82:** ten clothing verbs have now been practiced in chat; **the full book page is not confirmed completed**, so the bookmark stays at printed page 80 and next page to finish is p81.
 - Lektion 1, Lektion 2 and Lektion 3 through printed page 80 studied before and during repo tracking; do not restart at alphabet.
-- **Book page not advanced by the review.** Do not claim textbook exercises were completed.
+- **Book page not advanced by the reviews or verb drills**: no learner confirmation of completing printed p81; do not mark the full textbook page completed.
 
 ## Most recent review — 2026-10-13
 
@@ -21,14 +21,18 @@ Updated: 2026-10-13 (after guided review)
 ## GitHub Session Tracking
 
 - **Day 001**: 2026-10-13, first recorded GitHub session, NOT first day of learning German.
-- **Placement/review component completed**; the **full daily ten-verb lesson remains not completed**.
+- **Placement/review component completed (Q80)**. **Ten-verb writing drill completed** (10 learner sentences, all corrected; targeted redo **3/3**). **Full Day 001 remains incomplete** because grammar and other exercises are still pending.
 - `progress.json.generated_days[0].completed = false` and `score = null` until the separate daily work is actually finished and evaluated.
 - Day log: `days/2026-10-13-day-001.md`.
 
 ## Resume Here
 
-1. Start with **2–4 targeted spaced-review questions** on the documented mistakes, not another 80-question test.
-2. When learner is ready to study new material, continue **Lektion 3, printed p81 / PDF p82**: clothes, article/plural and clothing verbs.
-3. For the separate daily lesson: **10 verbs, one learner sentence per verb, a focused grammar point, then exercises**.
+1. **Resume current grammar exercise immediately:** negate `Das ist eine Jacke.`. The question is already posed and awaiting learner response.
+2. Continue `nicht/kein` exercises one question at a time and clothing vocabulary as planned.
+3. **Do not redo the completed 10-verb drill**. Use later spaced review for `aufhängen`, `ausziehen`, and `messen`; retry already passed 3/3.
 4. Ask **one question at a time**, explain briefly in Egyptian Arabic with German examples, and **skip pronunciation** unless the learner requests it.
 5. Update the page number **only after learner confirms they studied the next page**; update day completion only when all daily requirements are done.
+
+## Latest verb-practice details
+
+See the full per-verb corrections in [`days/2026-10-13-day-001.md`](days/2026-10-13-day-001.md#8-ten-verb-guided-practice--completed-with-corrections-2026-10-13). Pronunciation remains skipped by learner request.

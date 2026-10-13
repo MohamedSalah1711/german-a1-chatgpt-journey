@@ -40,13 +40,31 @@
       "source_pdf_page": 82,
       "placement_review_completed": true,
       "placement_review_last_question": 80,
-      "placement_review_report": "reviews/2026-10-13-a1-review-through-page-80.md"
+      "placement_review_report": "reviews/2026-10-13-a1-review-through-page-80.md",
+      "ten_verb_drill": {
+        "status": "completed_with_corrections",
+        "question_count": 10,
+        "practice_sentence_count": 10,
+        "source_printed_page": 81,
+        "targeted_review": {
+          "correct": 3,
+          "total": 3,
+          "verbs": [
+            "ausziehen",
+            "aufhängen",
+            "messen"
+          ]
+        }
+      },
+      "grammar_exercises_status": "in_progress_first_negation_question_pending"
     }
   ],
   "skills": {
     "verbs": {
       "introduced": 10,
-      "mastered": 0
+      "mastered": 0,
+      "practiced_in_sentences": 10,
+      "short_retry_correct": 3
     },
     "grammar": {
       "introduced_topics": [
@@ -85,7 +103,7 @@
     "exercises_verified": false,
     "notes_ar": "وصل لحد صفحة 80 المطبوعة (صفحة 81 في عدّاد PDF). ده تقدم في محتوى الكورس مش إثبات حفظ أو إتقان أو حل كل التمارين."
   },
-  "tracking_note": "Day 001 is first day tracked, not first German study day. Guided review through question 80 completed on 2026-10-13; the ten-verb Day 001 routine has not been completed or scored. Book last studied printed p80 (PDF p81), next printed p81 (PDF p82).",
+  "tracking_note": "Guided review through Q80 done, and all 10 clothing-verb sentences practiced plus targeted correction retry 3/3 on 2026-10-13. Day 001 still incomplete: negation and other daily exercises pending. Do not advance printed book p80 until learner confirms completion of printed p81.",
   "review_sessions": [
     {
       "date": "2026-10-13",
@@ -125,5 +143,42 @@
       "study_page_advanced": false
     }
   ],
-  "last_reviewed_date": "2026-10-13"
+  "last_reviewed_date": "2026-10-13",
+  "lesson_sessions": [
+    {
+      "date": "2026-10-13",
+      "topic": "Lektion 3 — Kleidung: 10 verbs from printed page 81",
+      "source_pdf_viewer_page": 82,
+      "number_of_verbs": 10,
+      "verb_exercises_completed": 10,
+      "verb_exercises_scored_as_fully_correct": null,
+      "verbs": [
+        "anprobieren",
+        "anziehen",
+        "aufhängen",
+        "ausziehen",
+        "bestellen",
+        "bügeln",
+        "falten",
+        "kaufen",
+        "kombinieren",
+        "messen"
+      ],
+      "targeted_correction_review": {
+        "tested": [
+          "ausziehen",
+          "aufhängen",
+          "messen"
+        ],
+        "correct": 3,
+        "total": 3
+      },
+      "grammar_focus": "nicht/kein clothing negation",
+      "grammar_exercises_status": "started; first task awaiting learner answer",
+      "completed": false,
+      "overall_score": null,
+      "book_page_marked_complete": false,
+      "notes": "All 10 practice sentences submitted and corrected. No formal 10/10 mastery; errors with articles, spelling, separable prefixes, and messen. Targeted retry 3/3. Daily grammar exercises unfinished; keep bookmark at printed p80/PDF81 pending learner confirmation of page 81 completion."
+    }
+  ]
 }

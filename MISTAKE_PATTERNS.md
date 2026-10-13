@@ -15,6 +15,11 @@
 | 2026-10-13 | Appearance expressions | "lang/kurz" for people's height, "Lang Haare" | **groß/klein** (height), **lange/kurze Haare** | Contrast descriptions of person vs hair |
 | 2026-10-13 | Complete written response | Question 80 omitted requested age | **Ich bin sechsundzwanzig Jahre alt.** | Check every fact in writing prompt |
 
+| 2026-10-13 | Separable verb particles | `hängt das Hemd an`; `zieht die Jacke an` when meaning remove | `hängt ... auf` (aufhängen); `zieht ... aus` (ausziehen) | Targeted retry **2/2 correct**; revisit after interval |
+| 2026-10-13 | Irregular verb messen | `Mein Bruder messt die Größe` | `Mein Bruder misst die Größe` | Targeted retry **correct** (`Mein Vater misst...`) |
+| 2026-10-13 | Article and indefinite meaning | `das Jacke`; `das T-Shirt` for Arabic “a T-shirt” | `die Jacke`; `ein T-Shirt` | Contrast definite/indefinite in practice |
+| 2026-10-13 | Clothing-word spelling and capitalization | `T-shirt`, `Kauft`, `dir Fraben`, `zeiht` | `T-Shirt`, `kauft`, `die Farben`, `zieht` | Short proofreading exercises |
+
 **Important:** In question 69, "Meine Mutter hat einen Bruder" introduced an accusative article. Do not assume systematic Akkusativ was already studied; follow the textbook's later sequence.
 
 Review file: [reviews/2026-10-13-a1-review-through-page-80.md](reviews/2026-10-13-a1-review-through-page-80.md)
