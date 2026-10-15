@@ -29,3 +29,9 @@
 **Important:** In question 69, "Meine Mutter hat einen Bruder" introduced an accusative article. Do not assume systematic Akkusativ was already studied; follow the textbook's later sequence.
 
 Review file: [reviews/2026-10-13-a1-review-through-page-80.md](reviews/2026-10-13-a1-review-through-page-80.md)
+
+## Continuation observed 2026-10-15
+
+- Repeated missing particle: `anprobieren` must be `probiert ... an`; omitted final `an` in Q15, Q18 and Q20. Learner noticed and asked to stop; revisit later, briefly.
+- Distinguish `bestellen` (order) and `kaufen` (buy); the Q20 prompt asked for `bestellt ... online`.
+- Improvement: later correct adjective endings, plural agreement, object pronouns, and verb-second after `deshalb`. No formal mastery or daily score.
