@@ -1,0 +1,70 @@
+[
+  {
+    "printed_page": 81,
+    "pdf_page": 82,
+    "lesson": 3,
+    "topic": "Kleidung",
+    "verbs": [
+      {
+        "verb": "anprobieren",
+        "meaning_ar": "يجرب الملابس",
+        "example_de": "Ich probiere das T-Shirt an.",
+        "example_ar": "أنا بجرب التيشيرت."
+      },
+      {
+        "verb": "anziehen",
+        "meaning_ar": "يرتدي",
+        "example_de": "Ich ziehe die Jacke an.",
+        "example_ar": "أنا بلبس الجاكيت."
+      },
+      {
+        "verb": "aufhängen",
+        "meaning_ar": "يعلق",
+        "example_de": "Ich hänge das Hemd auf.",
+        "example_ar": "أنا بعلق القميص."
+      },
+      {
+        "verb": "ausziehen",
+        "meaning_ar": "يخلع",
+        "example_de": "Ich ziehe die Jacke aus.",
+        "example_ar": "أنا بخلع الجاكيت."
+      },
+      {
+        "verb": "bestellen",
+        "meaning_ar": "يطلب",
+        "example_de": "Ich bestelle ein T-Shirt.",
+        "example_ar": "أنا بطلب تيشيرت."
+      },
+      {
+        "verb": "bügeln",
+        "meaning_ar": "يكوي",
+        "example_de": "Ich bügle das Hemd.",
+        "example_ar": "أنا بكوي القميص."
+      },
+      {
+        "verb": "falten",
+        "meaning_ar": "يطوي",
+        "example_de": "Ich falte das Hemd.",
+        "example_ar": "أنا بطوي القميص."
+      },
+      {
+        "verb": "kaufen",
+        "meaning_ar": "يشتري",
+        "example_de": "Ich kaufe eine Jacke.",
+        "example_ar": "أنا بشتري جاكيت."
+      },
+      {
+        "verb": "kombinieren",
+        "meaning_ar": "ينسّق",
+        "example_de": "Ich kombiniere die Farben.",
+        "example_ar": "أنا بنسق الألوان."
+      },
+      {
+        "verb": "messen",
+        "meaning_ar": "يقيس",
+        "example_de": "Mein Vater misst die Größe.",
+        "example_ar": "بابا بيقيس المقاس."
+      }
+    ]
+  }
+]
