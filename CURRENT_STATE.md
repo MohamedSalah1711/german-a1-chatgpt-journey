@@ -1,6 +1,6 @@
 # Current State
 
-Updated: 2026-10-14 (session closed for now, page 81 still unfinished)
+Updated: 2026-10-15 (faster-paced practice stopped by learner; page 81 still unfinished)
 
 - Level: **A1 learner**; guided checkpoint review completed, but no formal proficiency assessment or verified whole-course mastery.
 - Course: **Startbereit A1** (436 PDF pages).
@@ -9,7 +9,16 @@ Updated: 2026-10-14 (session closed for now, page 81 still unfinished)
 - Lektion 1, Lektion 2 and Lektion 3 through printed page 80 studied before and during repo tracking; do not restart at alphabet.
 - **Book page not advanced by the reviews or verb drills**: no learner confirmation of completing printed p81; do not mark the full textbook page completed.
 
-## Most recent review — 2026-10-13
+## Latest continuation — 2026-10-15
+
+- Learner answered 20 short translation prompts (Q1–Q20) on clothing, separable verbs, colors, adjective endings, pronouns, plural agreement, deshalb, and gefallen.
+- Learner requested a faster pace: one question followed by a brief correction. They explicitly stopped for today. Q21 was shown but is not homework and must not be repeated automatically.
+- Recent repeated slip: omitting final 'an' in anprobieren (Q15, Q18, Q20). Learner acknowledged it and asked to stop; do not drill further now.
+- Word choice to revisit later: bestellen (order) versus kaufen (buy). Improvements observed in adjectives, pronouns, plural and deshalb word order.
+- IMPORTANT: The current textbook bookmark stays printed page 80; page 81 is still not confirmed complete. Day 001 remains incomplete, with no overall score.
+- When the learner chooses to resume: brisk rhythm, minimal repeated questions, continue unfinished printed page 81, skip pronunciation unless requested.
+
+## Earlier guided review — 2026-10-13
 
 - Finished guided question series through **question 80/80** (pronunciation intentionally skipped).
 - Review recorded in [reviews/2026-10-13-a1-review-through-page-80.md](reviews/2026-10-13-a1-review-through-page-80.md).
@@ -29,7 +38,7 @@ Updated: 2026-10-14 (session closed for now, page 81 still unfinished)
 
 ## Resume When Learner Returns
 
-**Learner ended the session for today:** no pending question to answer now.
+**Learner ended the latest session (2026-10-15):** no pending question. Do not repeat Q21 as homework.
 
 1. Resume **printed p81 / PDF viewer p82** of Startbereit A1, **not completed** (explicit learner confirmation). Before picking new material, ask what remains to cover on that page; the clothing verb drill and related quizzes are already done.
 2. Give just **2–3 brief spaced review questions** based on actual mistakes: `bügeln` vs `falten`, `kaufen` vs `bestellen`, `die Jacke → sie` / `das Hemd → es`, `danach` word order. Ask **one at a time**.
