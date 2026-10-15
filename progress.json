@@ -71,13 +71,23 @@
         }
       },
       "mixed_final_quiz_status": "completed_2_of_5_correct_with_2_of_3_retry_and_1_of_1_pronoun_followup",
-      "session_status": "closed_for_now_incomplete",
+      "session_status": "paused_after_fast_review_2026-10-15",
       "session_closed_recorded_date": "2026-10-14",
       "pending_work": [
         "Learner confirmed printed page 81 has NOT been finished",
         "Revisit clothing words, articles, verbs and brief spaced review; do not repeat full drills",
         "Resume studying printed page 81 / PDF viewer page 82 before moving onward"
-      ]
+      ],
+      "recent_practice": {
+        "date": "2026-10-15",
+        "questions_answered": 20,
+        "topic": "Clothing sentence translations",
+        "last_answered_question": 20,
+        "unanswered_question_21_is_pending": false,
+        "session_ended_by_learner": true,
+        "notes": "Repeated omission of an in anprobieren, noticed by learner; contextual bestellen versus kaufen also needs later brief review. Faster correction rhythm requested.",
+        "page_completed": false
+      }
     }
   ],
   "skills": {
@@ -165,7 +175,7 @@
       "study_page_advanced": false
     }
   ],
-  "last_reviewed_date": "2026-10-14",
+  "last_reviewed_date": "2026-10-15",
   "lesson_sessions": [
     {
       "date": "2026-10-13",
@@ -203,6 +213,23 @@
       "notes": "Learner requested to close the session for now and resume tomorrow. Verb lesson practiced, Q1-5 mixed test scored 2/5; retry 2/3, pronoun extra 1/1. Printed p81 explicitly NOT finished. No daily completion, score or page advancement.",
       "session_status": "paused_by_learner",
       "session_closed_recorded_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "Fast-paced Kleidung practice",
+      "questions_answered": 20,
+      "session_status": "closed_by_learner",
+      "score": null,
+      "book_page_marked_complete": false,
+      "topics": [
+        "separable verbs",
+        "adjectives",
+        "pronouns",
+        "plural",
+        "deshalb",
+        "gefallen"
+      ],
+      "notes": "Q21 not answered intentionally; no automatic repeat. User wants a faster rhythm."
     }
   ],
   "lesson_assessments": [
