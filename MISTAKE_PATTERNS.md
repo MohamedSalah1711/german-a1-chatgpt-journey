@@ -18,11 +18,9 @@
 | 2026-10-13 | Irregular verb messen | `Mein Bruder messt die Größe` | `Mein Bruder misst die Größe` | Targeted retry **correct** (`Mein Vater misst...`) |
 | 2026-10-13 | Article and indefinite meaning | `das Jacke`; `das T-Shirt` for Arabic “a T-shirt” | `die Jacke`; `ein T-Shirt` | Contrast definite/indefinite in practice |
 | 2026-10-13 | Clothing-word spelling and capitalization | `T-shirt`, `Kauft`, `dir Fraben`, `zeiht` | `T-Shirt`, `kauft`, `die Farben`, `zieht` | Short proofreading exercises |
-
 | Recorded 2026-10-14 | Clothing article recall | Answered `die` for Mantel, `das` for Mütze, `das` for Hut | **der Mantel, die Mütze, der Hut** | Retest **3/3 correct**; review again after a delay |
 | Recorded 2026-10-14 | Plural ending of Hemd | `die Hemd` | **das Hemd → die Hemden** | Retest **1/1 correct**; revisit later without cue |
 | Recorded 2026-10-14 | German noun capitalization | `Die hose ist nicht neu.` | **Die Hose ist nicht neu.** | Nouns capitalized even within sentences; negation choice itself was correct |
-
 | Recorded 2026-10-14 | Similar clothing verbs confused in mixed quiz | Used `bügeln` for fold; `bestellen` for buy | **bügeln**=iron, **falten**=fold; **bestellen**=order, **kaufen**=buy | Both contrasts correct in targeted follow-up; revisit briefly |
 | Recorded 2026-10-14 | Verb spelling and endings | `büglt`, `faltt` | **er bügelt**, **er faltet** | Both used correctly in targeted retry |
 | Recorded 2026-10-14 | Gendered object pronouns | `danach faltet sie es` for `die Jacke` | **danach faltet sie sie** (Jacke); **danach faltet er es** (Hemd) | Extra test **`danach zieht sie sie an`** correct; revisit later |
