@@ -1,57 +1,46 @@
-# {{date}} - Day {{day_number}}
+# {{date}} — Day {{day_number}}
 
-Status: not completed
+Status: **worksheet generated, not studied or completed**.
 
-## 1. Morning Review
+Book checkpoint: {{book_checkpoint}}
 
-Review due:
+Verb source: **{{verb_source}}**
+
+## 1. Spaced review
 
 {{review_due}}
 
-Checklist:
+Review real mistakes in MISTAKE_PATTERNS.md; ask one question at a time.
 
-- [ ] Old verbs reviewed
+- [ ] Old verbs tested
 - [ ] Old grammar reviewed
-- [ ] Mistakes reviewed
-- [ ] One short spoken answer completed
+- [ ] Observed mistakes reviewed
 
-## 2. Today's 10 Verbs
+## 2. Ten verbs
 
 {{verbs_table}}
 
-Task: write one personal sentence for every verb.
+Write one original sentence for each verb; count only submitted answers.
 
-## 3. Grammar Focus
+## 3. Grammar
 
-{{grammar_focus}}
+Focus: {{grammar_focus}}
+
+Goal: {{grammar_goal}}
+
+Do not require grammar beyond the current textbook lesson.
 
 ## 4. Exercises
 
 {{exercises}}
 
-## 5. Speaking
+## 5. End-of-day log
 
-Answer in German:
+- [ ] Ten original sentences assessed
+- [ ] Grammar exercises assessed
+- [ ] Learner confirmed textbook page coverage
+- [ ] Update CURRENT_STATE.md, progress.json and MISTAKE_PATTERNS.md
 
-1. Wie heißt du?
-2. Wo wohnst du?
-3. Was lernst du heute?
-4. Was machst du morgen?
-5. Welche Verben sind heute schwierig?
+Score: **not assessed**
 
-## 6. End Of Day Log
-
-Score: __ / 10
-
-What I learned:
-
-- 
-
-Mistakes:
-
-- 
-
-Review tomorrow:
-
-- 
-
+Next confirmed page: **awaiting learner confirmation**

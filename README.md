@@ -22,11 +22,11 @@
 | Next printed page | **81** |
 | Next PDF viewer page | **82** |
 | Current lesson | **Lektion 3** |
-| First GitHub tracking day | Day 001; **guided review completed**, full 10-verb day **not completed** |
+| First GitHub tracking day | Day 001: ten clothing verbs practiced; **page 81 and the full day remain incomplete** |
 
 Lessons 1–2 and the opening of Lesson 3 have been studied. This does **not** mean every word, grammar point or exercise is mastered or finished. Day 001 began as a placement/revision session, not a beginner reset. The guided review ended at **question 80/80 on 2026-10-13**; details and actual mistakes are under [reviews/](reviews/2026-10-13-a1-review-through-page-80.md). No overall A1 grade or new textbook-page completion is claimed.
 
-The complete course PDF was provided in ChatGPT but is **not uploaded to this public GitHub repository**. Use `references/startbereit-a1-source-map.md` for the outline and `progress.json.course_progress` for the page bookmark.
+A full course PDF is **currently committed to this public repository**. Check redistribution rights. Removing the file in a later commit does not remove it from Git history. Use `references/startbereit-a1-source-map.md` for the outline and `progress.json.course_progress` for the page bookmark.
 
 ## Start
 
@@ -103,3 +103,13 @@ git push -u origin main
 2. حفظ 10 افعال وكتابة جملة من عندك لكل فعل.
 3. حل تدريبات القواعد وتسجيل الاخطاء.
 
+
+## Safe lesson generation
+
+- **Resume Day 001 first.** The generator blocks new days while an earlier day is incomplete.
+- Preview: `python scripts/new_day.py --dry-run`.
+- After a previous day is genuinely completed: `python scripts/new_day.py`.
+- Run tests: `python -m unittest discover -s tests -v`.
+- The generator does **not** rewrite `CURRENT_STATE.md`, invent results, mark practice as mastered, or advance the textbook bookmark.
+- Page-linked verbs live in `data/course_verbs.json`; otherwise verbs are labelled **general A1 practice** (not claimed to be from the page).
+- The book PDF and local machine details should not be republished without checking permissions/privacy.

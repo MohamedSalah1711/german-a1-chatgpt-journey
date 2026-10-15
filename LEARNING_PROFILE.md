@@ -33,4 +33,4 @@ German A1 foundation with daily progress tracking.
 - Learner prefers **one question at a time** and requested **no pronunciation drills** unless asking later.
 - Day 001 is the start of this GitHub learning journal, **not the start of German A1**.
 - Prefer contextual reviews over repeating entire old lessons; explain grammar only when needed.
-- Book PDF was supplied in ChatGPT, but is **not stored in this public repository**.
+- A full book PDF **is currently in this public repository**. Check redistribution rights before sharing.

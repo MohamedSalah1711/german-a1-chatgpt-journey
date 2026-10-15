@@ -37,12 +37,27 @@ def pick_grammar(grammar_plan: list[dict], progress: dict) -> dict:
     return eligible[-1] if eligible else grammar_plan[0]
 
 
-def select_verbs(verbs: list[dict], day_number: int, count: int) -> list[dict]:
-    start = ((day_number - 1) * count) % len(verbs)
-    selected = []
-    for offset in range(count):
-        selected.append(verbs[(start + offset) % len(verbs)])
-    return selected
+def select_verbs(verbs: list[dict], mapped: list[dict], progress: dict, day_number: int, count: int):
+    """Prefer verified page mappings; disclose when verbs are generic A1 practice."""
+    page = int(progress.get("course_progress", {}).get("next_printed_page", 1))
+    used = {v for session in progress.get("lesson_sessions", []) for v in session.get("verbs", [])}
+    entry = next((e for e in mapped if int(e["printed_page"]) == page), None)
+    page_verbs = [v for v in entry.get("verbs", []) if v["verb"] not in used] if entry else []
+    chosen = page_verbs[:count]
+    selected_names = {v["verb"] for v in chosen}
+    general = [v for v in verbs if v["verb"] not in used and v["verb"] not in selected_names]
+    general += [v for v in verbs if v["verb"] in used and v["verb"] not in selected_names]
+    needed = count - len(chosen)
+    if len(general) < needed:
+        raise ValueError("Insufficient distinct verbs in the general vocabulary data")
+    offset = ((day_number - 1) * count) % len(general) if general else 0
+    chosen += [general[(offset + i) % len(general)] for i in range(needed)]
+    source = (
+        f"Book page {page}: {len(page_verbs[:count])} mapped verbs; "
+        f"remaining {needed} are general A1 practice, NOT verified on the page."
+        if page_verbs else f"General A1 practice only; no unused verb mapping for printed page {page}."
+    )
+    return chosen, source
 
 
 def verbs_table(selected: list[dict]) -> str:
@@ -60,7 +75,7 @@ def review_due_text(day_number: int, progress: dict) -> str:
 
     intervals = set(progress.get("review_schedule", {}).get("intervals_after_day", [1, 3, 7, 14, 30]))
     generated = progress.get("generated_days", [])
-    due = [item for item in generated if day_number - int(item["day"]) in intervals]
+    due = [item for item in generated if item.get("completed") and day_number - int(item["day"]) in intervals]
 
     if not due:
         return "- No spaced-review day is due. Review yesterday plus mistake patterns."
@@ -102,193 +117,72 @@ def exercise_block(selected: list[dict], grammar: dict) -> str:
     return "\n".join(lines)
 
 
-def render_day(day_number: int, study_date: str, progress: dict, verbs: list[dict], grammar_plan: list[dict]) -> str:
-    selected = select_verbs(verbs, day_number, progress["daily_rules"]["verbs_per_day"])
+def render_day(day_number: int, study_date: str, progress: dict, verbs: list[dict], grammar_plan: list[dict], mapped: list[dict]) -> str:
+    count = int(progress["daily_rules"]["verbs_per_day"])
+    selected, source = select_verbs(verbs, mapped, progress, day_number, count)
     grammar = pick_grammar(grammar_plan, progress)
-    review_due = review_due_text(day_number, progress)
-    checkpoint = progress.get('course_progress', {})
-    next_printed = checkpoint.get('next_printed_page', 'unknown')
-    next_pdf = checkpoint.get('next_pdf_page', 'unknown')
-
-    return f"""# {study_date} - Day {day_label(day_number)}
-
-Status: not completed
-
-First tracking day does not mean the learner is new to German.
-Textbook bookmark: next **printed page {next_printed} / PDF viewer page {next_pdf}**. This is not a mastery score.
-
-## 1. Morning Review
-
-Review due:
-
-{review_due}
-
-Checklist:
-
-- [ ] Old verbs reviewed
-- [ ] Old grammar reviewed
-- [ ] Mistake patterns reviewed
-- [ ] One short spoken answer completed
-
-## 2. Today's 10 Verbs
-
-{verbs_table(selected)}
-
-Task: write one personal sentence for every verb.
-
-## 3. Grammar Focus
-
-Source unit: {grammar['unit']} - starts around PDF page {grammar['source_page']}
-
-Focus: {grammar['focus']}
-
-Goal: {grammar['goal_ar']}
-
-Practice ideas:
-
-{chr(10).join(f"- {item}" for item in grammar["practice"])}
-
-## 4. Exercises
-
-{exercise_block(selected, grammar)}
-
-## 5. Speaking
-
-Answer in German:
-
-1. Wie heißt du?
-2. Wo wohnst du?
-3. Was lernst du heute?
-4. Was machst du morgen?
-5. Welche Verben sind heute schwierig?
-
-## 6. End Of Day Log
-
-Score: __ / 10
-
-What I learned:
-
--
-
-Mistakes:
-
--
-
-Review tomorrow:
-
--
-"""
-
-
-def update_current_state(day_number: int, study_date: str, day_file: Path, grammar: dict) -> None:
-    CURRENT_STATE_PATH.write_text(
-        f"""# Current State
-
-Date: {study_date}
-
-Current level: A1 beginner
-
-Current day: {day_label(day_number)}
-
-Status: Day {day_label(day_number)} generated, not completed yet.
-
-## Today
-
-- File: {day_file.as_posix()}
-- Grammar focus: {grammar['focus']}
-- Source unit: {grammar['unit']} around PDF page {grammar['source_page']}
-- Daily target: 10 verbs, one grammar point, exercises, and end-of-day log.
-
-## Next Session Should Start With
-
-1. Review this generated day.
-2. Review old mistake patterns.
-3. Ask the learner short questions before explaining new material.
-""",
-        encoding="utf-8",
-    )
+    bookmark = progress.get("course_progress", {})
+    template = (ROOT / "templates/day-template.md").read_text(encoding="utf-8")
+    fields = {
+        "{{date}}": study_date,
+        "{{day_number}}": day_label(day_number),
+        "{{book_checkpoint}}": f"Printed page {bookmark.get('next_printed_page', '?')} / PDF viewer page {bookmark.get('next_pdf_page', '?')}",
+        "{{verb_source}}": source,
+        "{{review_due}}": review_due_text(day_number, progress),
+        "{{verbs_table}}": verbs_table(selected),
+        "{{grammar_focus}}": grammar["focus"],
+        "{{grammar_goal}}": grammar["goal_ar"],
+        "{{exercises}}": exercise_block(selected, grammar),
+    }
+    for key, value in fields.items():
+        template = template.replace(key, value)
+    if "{{" in template or "}}" in template:
+        raise ValueError("Unresolved template placeholders")
+    return template
 
 
 def main() -> int:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-
-    parser = argparse.ArgumentParser(description="Generate a new daily German A1 study file.")
-    parser.add_argument("--date", default=date.today().isoformat(), help="Study date in YYYY-MM-DD format.")
-    parser.add_argument("--day", type=int, help="Specific day number to generate.")
-    parser.add_argument("--force", action="store_true", help="Overwrite an existing generated day file.")
-    parser.add_argument("--dry-run", action="store_true", help="Print the generated lesson without writing files.")
+    parser = argparse.ArgumentParser(description="Safely generate one new German A1 worksheet.")
+    parser.add_argument("--date", default=date.today().isoformat(), help="YYYY-MM-DD")
+    parser.add_argument("--day", type=int, help="Must equal the next sequential day")
+    parser.add_argument("--dry-run", action="store_true", help="Preview without saving")
     args = parser.parse_args()
-
+    try:
+        if date.fromisoformat(args.date).isoformat() != args.date:
+            raise ValueError
+    except ValueError:
+        parser.error("Use YYYY-MM-DD for --date")
     progress = load_json(PROGRESS_PATH)
-    verbs = load_json(VERBS_PATH)
-    grammar_plan = load_json(GRAMMAR_PATH)
-
-    last_day = int(progress.get("current_day", 0))
-    if args.day is None and any(
-        int(item["day"]) == last_day and not item.get("completed", False)
-        for item in progress.get("generated_days", [])
-    ):
-        raise SystemExit(
-            f"Day {day_label(last_day)} is still not completed. "
-            "Finish/review it before generating the next day."
-        )
-    day_number = args.day or last_day + 1
-    day_file = DAYS_DIR / f"{args.date}-day-{day_label(day_number)}.md"
-
-    if any(item.get("file") == day_file.relative_to(ROOT).as_posix() and item.get("completed") for item in progress.get("generated_days", [])):
-        raise SystemExit(f"Refusing to overwrite a completed day: {day_file}")
-    if day_file.exists() and not args.force:
-        raise SystemExit(f"Day file already exists: {day_file}")
-
-    rendered = render_day(day_number, args.date, progress, verbs, grammar_plan)
-
+    previous = progress.get("generated_days", [])
+    if any(not item.get("completed", False) for item in previous):
+        parser.error("An incomplete day exists. Resume it instead of generating a new day.")
+    next_day = max([int(progress.get("current_day", 0))] + [int(d["day"]) for d in previous]) + 1
+    if args.day is not None and args.day != next_day:
+        parser.error(f"Only day {next_day:03d} may be generated next.")
+    name = f"{args.date}-day-{day_label(next_day)}.md"
+    path = DAYS_DIR / name
+    if path.exists():
+        parser.error(f"Refusing to overwrite existing day: {path}")
+    rendered = render_day(
+        next_day, args.date, progress, load_json(VERBS_PATH),
+        load_json(GRAMMAR_PATH), load_json(ROOT / "data/course_verbs.json"),
+    )
     if args.dry_run:
         print(rendered)
         return 0
-
-    day_file.write_text(rendered, encoding="utf-8")
-
-    rel_file = day_file.relative_to(ROOT).as_posix()
-    generated_days = progress.setdefault("generated_days", [])
-    generated_days = [item for item in generated_days if int(item["day"]) != day_number]
-    generated_days.append(
-        {
-            "day": day_number,
-            "date": args.date,
-            "file": rel_file,
-            "completed": False,
-            "score": None,
-        }
-    )
-    progress["generated_days"] = sorted(generated_days, key=lambda item: int(item["day"]))
-    progress["current_day"] = day_number
+    DAYS_DIR.mkdir(parents=True, exist_ok=True)
+    path.write_text(rendered, encoding="utf-8")
+    progress.setdefault("generated_days", []).append({
+        "day": next_day, "date": args.date, "file": f"days/{name}",
+        "completed": False, "score": None,
+    })
+    progress["current_day"] = next_day
     progress["last_generated_date"] = args.date
-    progress["skills"]["verbs"]["introduced"] = max(
-        int(progress["skills"]["verbs"].get("introduced", 0)),
-        day_number * int(progress["daily_rules"]["verbs_per_day"]),
-    )
-
-    grammar = pick_grammar(grammar_plan, progress)
-    topics = progress["skills"]["grammar"].setdefault("introduced_topics", [])
-    if grammar["focus"] not in topics:
-        topics.append(grammar["focus"])
-
+    # Never rewrite CURRENT_STATE, advance a textbook page, or claim lessons mastered.
     save_json(PROGRESS_PATH, progress)
-    update_current_state(day_number, args.date, day_file.relative_to(ROOT), grammar)
-    # Preserve the learner's actual textbook progress in CURRENT_STATE.
-    with CURRENT_STATE_PATH.open("a", encoding="utf-8") as state_file:
-        course = progress.get("course_progress", {})
-        state_file.write(
-            f"\n## Textbook Bookmark (learner-reported)\n\n"
-            f"- Last studied printed page: {course.get('last_studied_printed_page', 'unknown')}\n"
-            f"- Next printed page: {course.get('next_printed_page', 'unknown')}\n"
-            f"- Next PDF viewer page: {course.get('next_pdf_page', 'unknown')}\n"
-            f"- Studied does not mean mastered. Never auto-advance the page.\n"
-        )
-
-    print(f"Generated {rel_file}")
-    print("Next: study the file, update the end-of-day log, then commit your progress.")
+    print(f"Generated days/{name} (not studied or completed).")
     return 0
 
 

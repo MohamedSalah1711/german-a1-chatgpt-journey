@@ -14,9 +14,8 @@
   },
   "source_reference": {
     "title": "startbereit A1 - course PDF",
-    "local_path": "C:\\Users\\Ahmed Afify\\Downloads\\Telegram Desktop\\startbereit A1 - نسخة الكورس المسجل (1).pdf",
     "pages_detected": 436,
-    "notes": "Used as a topic map and reference source, not copied as full course text."
+    "notes": "The full course PDF is currently committed to this public repo. Review redistribution rights. Do not publish machine-specific local paths."
   },
   "review_schedule": {
     "intervals_after_day": [
@@ -56,7 +55,7 @@
           ]
         }
       },
-      "grammar_exercises_status": "negation_5_of_5_complete_final_mixed_quiz_pending",
+      "grammar_exercises_status": "negation_5_of_5_complete_final_mixed_quiz_complete",
       "clothing_vocab_assessment": {
         "articles": {
           "first_try_correct": 3,
