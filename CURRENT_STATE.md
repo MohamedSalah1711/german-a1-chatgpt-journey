@@ -1,6 +1,22 @@
 # Current State
 
-Updated: 2026-10-15 (faster-paced practice stopped by learner; page 81 still unfinished)
+## Latest checkpoint — 2026-10-17
+
+- **Next textbook page: printed 107 / PDF viewer 108**. Learner selectively worked through **printed 106 / PDF viewer 107**, then ended the session and requested an update. This is a **coverage bookmark**, not a declaration that all exercises or skills have been completed.
+- **Current unit: Lektion 4**, questions (**W-Fragen**, **Ja/Nein-Fragen**).
+- **Latest completed test: 9/10**, on questions from printed pp101–106. One wrong judgment: `Kommst du morgen?` is **Ja/Nein-Frage**, not a W-Frage. An earlier quiz was abandoned after 7/10 attempted (4/7 correct); do not label it as a completed 10-question test.
+- **Practice:** vocabulary/adjectives from pp81–82 mini-check **4/4**; simplified reading checks printed p87 **4/4** and pp89–90 **4/4**; object/material/pricing translations, and selected question grammar.
+- **Not completed:** audio exercises pp83–86 (recordings needed); longer reading pp91–97 and writing p98 explicitly skipped at learner request. Do not silently count these as completed.
+- **Quick spaced-review targets:** `Wie viel/Wie viele`, `Wie lang/Wie lange`, `er sieht → Sieht er ...?`, and W-Frage vs Ja/Nein-Frage. Previous minor slips: noun/adjective capitalization, `er` for `der Schrank`. No repetitive basic drills.
+- **Next action:** when learner returns, continue **printed p107** directly, with very short Egyptian-Arabic explanations, fast pace and compact question batches. User explicitly does not want systematic **Akkusativ/Dativ** taught early.
+- **Tracking nuance:** 2026-10-13 Day 001 stays historically **incomplete** (`completed=false`, no overall daily score); later study was logged as a separate session, not artificially added to Day 001. The old Oct 15 bookmark below is historical and has been superseded by the latest checkpoint.
+- **Session details:** [reviews/2026-10-17-selective-progress-through-page-106.md](reviews/2026-10-17-selective-progress-through-page-106.md).
+
+---
+
+## Historical checkpoint — 2026-10-15 (superseded)
+
+Historical update: 2026-10-15 (faster-paced practice stopped by learner; page 81 still unfinished)
 
 - Level: **A1 learner**; guided checkpoint review completed, but no formal proficiency assessment or verified whole-course mastery.
 - Course: **Startbereit A1** (436 PDF pages).
