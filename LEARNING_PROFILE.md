@@ -24,7 +24,15 @@ German A1 foundation with daily progress tracking.
 - 10 دقائق مراجعة.
 - Git commit بعد نهاية اليوم.
 
-## Existing Course Progress (user-reported 2026-10-13)
+## Latest progress (2026-10-17)
+
+- Selectively studied through **printed page 106 (PDF viewer page 107)**; next: **printed p107 (PDF p108)**, Lektion 4.
+- Latest complete W-/Ja-Nein-Fragen quiz: **9/10**. Listening exercises pending; later reading and writing skipped at learner request.
+- Strong preference: **fast-paced**, **brief Egyptian Arabic corrections**, minimal old material, optionally grouped questions. No systematic Akkusativ or Dativ until introduced in the textbook.
+- Spaced review only: Wie viel/Wie viele, Wie lang/Wie lange, sieht er, and yes/no versus W questions.
+- Historical Day 001 still incomplete. See `CURRENT_STATE.md` and `reviews/2026-10-17-selective-progress-through-page-106.md`.
+
+## Existing Course Progress (historical, user-reported 2026-10-13)
 
 - Studied Startbereit A1 through **printed page 80 (PDF page 81)**.
 - Now in **Lektion 3**. Next: **printed page 81 / PDF page 82**.
