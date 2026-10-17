@@ -11,7 +11,16 @@
 - كل جلسة تنتهي بتحديث `progress.json` و `CURRENT_STATE.md` و `MISTAKE_PATTERNS.md`.
 - كل تقدم يتسجل بـ Git commit، وبالتالي يظهر كتاريخ واضح على GitHub.
 
-## Where we actually are (13 October 2026)
+## Latest learning checkpoint (17 October 2026)
+
+- **Last selectively covered:** Startbereit A1 **printed page 106 (PDF viewer page 107)**.
+- **Next:** printed **page 107 (PDF viewer page 108)**, Lektion 4, W-Fragen / Ja/Nein-Fragen.
+- **Completed quiz:** 9/10. Earlier quiz unfinished (7/10 answered, 4 correct).
+- **Not completed:** audio pp83–86 (pending), extended reading pp91–97 and writing p98 (skipped by learner).
+- This is a **coverage bookmark**, not full course mastery; historical Day 001 is still incomplete.
+- [2026-10-17 session review](reviews/2026-10-17-selective-progress-through-page-106.md) · [Current State](CURRENT_STATE.md)
+
+## Earlier learning checkpoint (13 October 2026; historical)
 
 **Startbereit A1** study was already underway before this repo was created.
 
