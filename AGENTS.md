@@ -2,6 +2,11 @@
 
 Use this repo as a daily German A1 learning journal.
 
+## Current checkpoint override — 2026-10-17
+
+The **2026-10-13 checkpoint below is historic**. The learner later selectively covered through **printed page 106 / PDF viewer page 107**, and the **next page is printed 107 / PDF viewer 108** (Lektion 4 W-/Ja/Nein-Fragen). Consult `CURRENT_STATE.md`, `progress.json.course_progress` and `reviews/2026-10-17-selective-progress-through-page-106.md`. Latest completed grammar quiz was **9/10**. Do not infer full textbook exercise completion: listening pp83–86 still pending, reading pp91–97 and writing p98 skipped by request. Old Day 001 remains incomplete. Keep answers fast, concise, in Egyptian Arabic; avoid systematic Akkusativ/Dativ until the learner studies them.
+
+
 Before creating or editing a daily lesson, read:
 
 - `START_HERE.md`
