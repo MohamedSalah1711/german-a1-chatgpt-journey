@@ -35,3 +35,13 @@ Review file: [reviews/2026-10-13-a1-review-through-page-80.md](reviews/2026-10-1
 - Repeated missing particle: `anprobieren` must be `probiert ... an`; omitted final `an` in Q15, Q18 and Q20. Learner noticed and asked to stop; revisit later, briefly.
 - Distinguish `bestellen` (order) and `kaufen` (buy); the Q20 prompt asked for `bestellt ... online`.
 - Improvement: later correct adjective endings, plural agreement, object pronouns, and verb-second after `deshalb`. No formal mastery or daily score.
+
+## Observed 2026-10-17 — selective practice to printed p106
+
+- **Wie viel vs Wie viele:** In the incomplete question quiz, chose `Wie viel Kinder`; use **`Wie viele Kinder?`** for countable plural. Use `Wie viel Zeit?` for non-countable amount (that question was answered correctly).
+- **Wie lang vs Wie lange:** Chose `Wie lange ist der Weg?` for a **five-kilometre length**; use **`Wie lang ist der Weg?`**. `Wie lange` asks about duration.
+- **Irregular sehen with er:** Selected `Seht er fern?`; correct **`Sieht er fern?`**.
+- **Question type recognition:** In completed test (9/10), judged **`Kommst du morgen?`** to be W-Frage; it is **Ja/Nein-Frage**, because the verb comes first.
+- **Sentence structure / gender:** Missing `ist` in `Die Lampe aus Metall`; used `es` for `der Schrank` instead of `er`; wrote `Rund` for lowercase adjective `rund` and `euro` for noun `Euro`; used `Tasche` where `Tisch` was requested.
+- **Beyond studied grammar:** `Wie findest du der Tisch?` needs `den Tisch`, but **do not force Akkusativ practice** until it is formally introduced.
+- **Status:** Fully completed quiz was **9/10**; earlier quiz only **7/10 answered (4/7)**. Do not imply all chapter exercises completed. Listenings unassessed; later reading and writing intentionally skipped.
