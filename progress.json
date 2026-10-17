@@ -104,38 +104,68 @@
         "personal pronouns",
         "present tense",
         "possessive articles",
-        "negation with nicht and kein"
+        "negation with nicht and kein",
+        "W-Fragen",
+        "Ja/Nein-Fragen"
       ],
       "needs_review": [
         "articles and plural",
         "present tense",
         "possessive articles",
-        "nicht versus kein"
+        "nicht versus kein",
+        "Wie viel versus Wie viele",
+        "Wie lang versus Wie lange",
+        "sehen: er sieht (sieht er?)",
+        "W-Frage versus Ja/Nein-Frage"
       ]
     }
   },
   "course_progress": {
     "book_title": "Startbereit A1 - نسخة الكورس المسجل",
-    "progress_source": "Learner confirmed on session closure that printed page 81 is not yet complete; last fully studied bookmark remains printed page 80 (PDF viewer 81).",
-    "last_studied_printed_page": 80,
-    "last_studied_pdf_page": 81,
-    "next_printed_page": 81,
-    "next_pdf_page": 82,
-    "current_lesson": 3,
-    "current_unit_index": 2,
+    "progress_source": "Learner ended the 2026-10-17 selective lesson after review of pages 81–106 and two grammar quizzes. Last reached printed p106 / PDF viewer p107, not a claim of finishing every textbook task.",
+    "last_studied_printed_page": 106,
+    "last_studied_pdf_page": 107,
+    "next_printed_page": 107,
+    "next_pdf_page": 108,
+    "current_lesson": 4,
+    "current_unit_index": 3,
     "sections_studied": [
       "Lektion 1",
       "Lektion 2",
-      "Lektion 3 through printed page 80"
+      "Lektion 3 through printed page 80",
+      "Printed pp81–82 clothing vocabulary/actions: targeted practice",
+      "Printed pp87 and 89–90 reading: simplified comprehension checks",
+      "Printed pp99–106 selected W-Fragen and Ja/Nein-Fragen grammar"
     ],
-    "current_section": "Lektion 3 - Aussehen, Charaktereigenschaften, Kleidung",
-    "next_section": "Lektion 3 - clothing vocabulary and clothing verbs on printed page 81",
+    "current_section": "Lektion 4: W-Fragen and Ja/Nein-Fragen, selective coverage through printed p106",
+    "next_section": "Lektion 4 continuation: begin printed p107 (PDF viewer p108)",
     "content_seen_not_mastered": true,
     "exercises_verified": false,
-    "notes_ar": "الطالب أكد عند إغلاق الجلسة إن صفحة 81 المطبوعة لسه ما اتخلصتش. آخر صفحة مؤكدة 80 مطبوعة (PDF 81)، والصفحة الجاية 81 مطبوعة (PDF 82). اتعملت تدريبات أفعال وملابس من صفحة 81 من غير ما نعتبر الصفحة كاملة.",
-    "page_81_completion_confirmed": false
+    "notes_ar": "وصلنا لصفحة 106 المطبوعة (PDF 107) بعد اختبار 9/10 صحيح؛ نبدأ 107 (PDF 108). المحتوى اتراجع بشكل انتقائي: الاستماع 83–86 معلّق، القراءة 91–97 والكتابة 98 متخطّيين بطلب المتعلم، ومش بنعتبر كل تمارين الكتاب متحلّة. Day 001 التاريخي لسه غير مكتمل.",
+    "page_81_completion_confirmed": false,
+    "last_covered_printed_page": 106,
+    "last_covered_pdf_page": 107,
+    "selective_coverage": true,
+    "skipped_or_pending_sections": [
+      {
+        "pages_printed": "83–86",
+        "skill": "Hören",
+        "status": "pending recordings"
+      },
+      {
+        "pages_printed": "91–97",
+        "skill": "Lesen",
+        "status": "skipped by learner"
+      },
+      {
+        "pages_printed": "98",
+        "skill": "Schreiben",
+        "status": "skipped by learner"
+      }
+    ],
+    "last_fully_confirmed_page_before_selective_jump": 80
   },
-  "tracking_note": "Session explicitly closed for now on 2026-10-14, without completing Day 001 or printed page 81. 10 verb exercises + targeted retry 3/3; negation 5/5; articles 3/6 then 3/3; plurals 5/6 then 1/1; mixed quiz 2/5 first try then 2/3 targeted retry and final pronoun check 1/1. User will continue later. Do not ask another question until user returns.",
+  "tracking_note": "Session explicitly closed for now on 2026-10-14, without completing Day 001 or printed page 81. 10 verb exercises + targeted retry 3/3; negation 5/5; articles 3/6 then 3/3; plurals 5/6 then 1/1; mixed quiz 2/5 first try then 2/3 targeted retry and final pronoun check 1/1. User will continue later. Do not ask another question until user returns. On 2026-10-17 learner selectively reached printed p106 (next p107); completed W-/Ja-Nein quiz 9/10; listening pending, reading pp91–97 and writing p98 skipped. See reviews/2026-10-17-selective-progress-through-page-106.md. Historical Day 001 remains incomplete.",
   "review_sessions": [
     {
       "date": "2026-10-13",
@@ -173,9 +203,50 @@
       "formal_overall_score": null,
       "pronunciation_skipped_by_user_request": true,
       "study_page_advanced": false
+    },
+    {
+      "date": "2026-10-17",
+      "kind": "selective_coverage_and_question_grammar",
+      "status": "session_closed_by_learner",
+      "course_printed_page_reached": 106,
+      "source_pdf_viewer_page": 107,
+      "next_course_printed_page": 107,
+      "report": "reviews/2026-10-17-selective-progress-through-page-106.md",
+      "reading_checkpoints": [
+        {
+          "printed_page": 87,
+          "correct": 4,
+          "total": 4
+        },
+        {
+          "printed_pages": "89–90",
+          "correct": 4,
+          "total": 4
+        }
+      ],
+      "clothing_check": {
+        "correct": 4,
+        "total": 4
+      },
+      "incomplete_grammar_quiz": {
+        "answered": 7,
+        "planned": 10,
+        "correct_among_answered": 4,
+        "completed": false
+      },
+      "completed_grammar_quiz": {
+        "correct": 9,
+        "total": 10,
+        "completed": true,
+        "incorrect_concept": "Kommst du morgen? is Ja/Nein-Frage"
+      },
+      "listening_status": "pending",
+      "reading_pp91_to_97": "skipped_by_request",
+      "writing_p98": "skipped_by_request",
+      "formal_mastery_claim": false
     }
   ],
-  "last_reviewed_date": "2026-10-15",
+  "last_reviewed_date": "2026-10-17",
   "lesson_sessions": [
     {
       "date": "2026-10-13",
@@ -230,6 +301,17 @@
         "gefallen"
       ],
       "notes": "Q21 not answered intentionally; no automatic repeat. User wants a faster rhythm."
+    },
+    {
+      "date": "2026-10-17",
+      "topic": "Selective guided Startbereit A1 p81–106; W-Fragen / Ja-Nein questions",
+      "session_status": "closed_by_learner",
+      "completed": false,
+      "score": null,
+      "book_page_marked_complete": false,
+      "last_printed_page_reached": 106,
+      "report": "reviews/2026-10-17-selective-progress-through-page-106.md",
+      "notes": "User chose to skip listening, longer reading and writing; final grammar quiz 9/10. Course bookmark next printed p107."
     }
   ],
   "lesson_assessments": [
