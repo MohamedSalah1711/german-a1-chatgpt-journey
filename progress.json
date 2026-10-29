@@ -246,7 +246,7 @@
       "formal_mastery_claim": false
     }
   ],
-  "last_reviewed_date": "2026-10-17",
+  "last_reviewed_date": "2026-10-24",
   "lesson_sessions": [
     {
       "date": "2026-10-13",
@@ -312,6 +312,43 @@
       "last_printed_page_reached": 106,
       "report": "reviews/2026-10-17-selective-progress-through-page-106.md",
       "notes": "User chose to skip listening, longer reading and writing; final grammar quiz 9/10. Course bookmark next printed p107."
+    },
+    {
+      "date": "2026-10-24",
+      "topic": "Lektion 5 from scratch: Essen und Trinken, Modalverben, Restaurant, Einkauf",
+      "session_status": "closed_by_learner",
+      "completed": false,
+      "score": null,
+      "report": "reviews/2026-10-24-lektion-5-session.md",
+      "coverage": "Tutor-defined Teile 1–6 studied; Teil 7 test shown but not answered; Teil 8 not started",
+      "assessments": [
+        {
+          "label": "initial modalverb drill",
+          "correct": 4,
+          "total": 4
+        },
+        {
+          "label": "modalverb extension",
+          "correct": 4,
+          "total": 5
+        },
+        {
+          "label": "restaurant translation first attempt",
+          "correct": 1,
+          "total": 5
+        },
+        {
+          "label": "final kein/keine/keinen mini-check",
+          "correct": 2,
+          "total": 3
+        }
+      ],
+      "needs_review": [
+        "masculine keinen",
+        "Kaffee/schmeckt spelling",
+        "kaufen vs bestellen"
+      ],
+      "notes": "Not verified textbook page completion; do not change course_progress page bookmark."
     }
   ],
   "lesson_assessments": [
