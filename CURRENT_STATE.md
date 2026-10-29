@@ -1,5 +1,15 @@
 # Current State
 
+## Latest study — 2026-10-24: Lektion 5 (unfinished)
+
+- Learner deliberately began **Lektion 5 from zero** with essential A1 food/drink vocabulary, verbs and Modalverben.
+- Guided activities through tutor-defined **Teil 6** and restaurant role-play; Teil 7 review questions presented but **not answered**, Teil 8 not begun. Session explicitly closed by learner.
+- Scores of separate exercises: Modalverben **4/4**, extension **4/5**, restaurant translation **1/5 fully correct**, final kein/keine/keinen check **2/3**. No overall lesson grade.
+- Improved: `ich muss`, `meine Schwester`, `er wäscht`, `mir ein Glas Wasser geben`. Review: masculine `keinen Tee/Kaffee/Zucker`, `schmeckt` and `Kaffee` spelling, `kaufen` vs `bestellen`.
+- Continue **Lektion 5 Teil 7** when asked. Prior textbook page bookmark is historical; this session does not certify any new textbook page.
+- See [Oct 24 session report](reviews/2026-10-24-lektion-5-session.md).
+
+
 ## Latest checkpoint — 2026-10-17
 
 - **Next textbook page: printed 107 / PDF viewer 108**. Learner selectively worked through **printed 106 / PDF viewer 107**, then ended the session and requested an update. This is a **coverage bookmark**, not a declaration that all exercises or skills have been completed.
