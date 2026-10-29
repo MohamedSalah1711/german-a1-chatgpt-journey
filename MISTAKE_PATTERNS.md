@@ -45,3 +45,11 @@ Review file: [reviews/2026-10-13-a1-review-through-page-80.md](reviews/2026-10-1
 - **Sentence structure / gender:** Missing `ist` in `Die Lampe aus Metall`; used `es` for `der Schrank` instead of `er`; wrote `Rund` for lowercase adjective `rund` and `euro` for noun `Euro`; used `Tasche` where `Tisch` was requested.
 - **Beyond studied grammar:** `Wie findest du der Tisch?` needs `den Tisch`, but **do not force Akkusativ practice** until it is formally introduced.
 - **Status:** Fully completed quiz was **9/10**; earlier quiz only **7/10 answered (4/7)**. Do not imply all chapter exercises completed. Listenings unassessed; later reading and writing intentionally skipped.
+
+## 2026-10-24 — Lektion 5 observed corrections
+
+- **Repeated:** `kein Zucker`, `kein Tee`, `kein Kaffe` → `keinen Zucker`, `keinen Tee`, `keinen Kaffee` (masculine direct object). Meanwhile `keine Milch` and `keine Eier` correct.
+- **Spelling:** `schmekt` → `schmeckt`; `Kaffe` → `Kaffee`.
+- **Improved on later attempts:** `Ich musst` → `Ich muss`; `Mein Mutter` → `Meine Mutter`, then `Meine Schwester` correct; `Er wascht` → `Er wäscht`.
+- **Word choice:** buying = `kaufen`, ordering = `bestellen`. Specific `die Tomaten` is grammatical, general preference = `Tomaten`.
+- **Restaurant:** `Ich brauche nicht Quittung` → `Ich brauche keine Quittung`.
